@@ -1,0 +1,5 @@
+A1 proxy test based on render_iter_80000.png panel crops
+baseline: PSNR=23.481310, SSIM=0.789919
+best blur sigma=0.5, PSNR=23.632394, SSIM=0.794926
+delta: dPSNR=+0.151084, dSSIM=+0.005007
+Note: this is image-level proxy, not raw tensor-level re-rendering from checkpoint.

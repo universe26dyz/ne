@@ -1,0 +1,35 @@
+Phase A2 Coordinate Consistency Check
+Definition: current local coords use (i,j,0), affine columns set as [col*dx, row*dy, normal].
+
+[cine_sax] n=80
+  mean cos(i-step, row-step) = 0.000000
+  mean cos(i-step, col-step) = 1.000000
+  mean cos(j-step, row-step) = 1.000000
+  mean cos(j-step, col-step) = 0.000000
+  mean |c0|=1.250000, |c1|=1.250000, |c2|=1.000000
+  mean |cos(c0,c1)|=3.005486e-08, |cos(c0,c2)|=6.513338e-17, |cos(c1,c2)|=4.648284e-18
+
+[cine_4ch] n=80
+  mean cos(i-step, row-step) = -0.000000
+  mean cos(i-step, col-step) = 1.000000
+  mean cos(j-step, row-step) = 1.000000
+  mean cos(j-step, col-step) = -0.000000
+  mean |c0|=1.250000, |c1|=1.250000, |c2|=1.000000
+  mean |cos(c0,c1)|=2.741316e-09, |cos(c0,c2)|=1.400879e-17, |cos(c1,c2)|=7.525338e-18
+
+[cine_3ch] n=80
+  mean cos(i-step, row-step) = -0.000000
+  mean cos(i-step, col-step) = 1.000000
+  mean cos(j-step, row-step) = 1.000000
+  mean cos(j-step, col-step) = -0.000000
+  mean |c0|=1.250000, |c1|=1.250000, |c2|=1.000000
+  mean |cos(c0,c1)|=3.016011e-09, |cos(c0,c2)|=9.585218e-17, |cos(c1,c2)|=1.182692e-18
+
+[cine_2ch] n=80
+  mean cos(i-step, row-step) = -0.000000
+  mean cos(i-step, col-step) = 1.000000
+  mean cos(j-step, row-step) = 1.000000
+  mean cos(j-step, col-step) = -0.000000
+  mean |c0|=1.250000, |c1|=1.250000, |c2|=1.000000
+  mean |cos(c0,c1)|=1.002111e-08, |cos(c0,c2)|=7.073588e-18, |cos(c1,c2)|=1.213938e-16
+

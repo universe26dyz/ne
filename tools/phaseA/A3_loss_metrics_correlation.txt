@@ -1,0 +1,20 @@
+Phase A3 Loss-Metric Correlation (last training segment)
+n_points=80
+iter range: 1000 -> 80000
+PSNR first/last/best: 19.3200/21.4700/21.5500 at iter 76000
+SSIM first/last/best: 0.7085/0.7999/0.7999 at iter 76000
+MSE first/last: 7.990000e-03/4.053000e-03 (ratio=0.5073)
+biasReg first/last: 9.439000e-04/2.817000e-38
+TV first/last: 6.975000e-04/2.155000e-04
+Smooth first/last: 4.072000e-05/7.281000e-07
+L1_Time first/last: 2.743000e-05/9.282000e-05
+corr(MSE,PSNR)=-0.895298
+corr(MSE,SSIM)=-0.943730
+corr(imageReg,PSNR)=-0.893512
+corr(Smooth_Time,PSNR)=-0.884903
+PSNR delta over last 10000 iters: 0.110000
+SSIM delta over last 10000 iters: 0.004300
+PSNR delta over last 20000 iters: 0.310000
+SSIM delta over last 20000 iters: 0.015000
+PSNR delta over last 40000 iters: 1.000000
+SSIM delta over last 40000 iters: 0.031400
